@@ -23,3 +23,7 @@
 *.tlog/
 x64/
 Debug/
+
+# Exclude Visual Studio project files
+*.vcxproj
+*.vcxproj.filters
