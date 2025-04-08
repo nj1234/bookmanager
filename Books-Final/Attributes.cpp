@@ -63,7 +63,6 @@ bool Attributes::is_Matching(const Attributes& target_attr) const
 
 bool Attributes::is_Matching_pair(const Key& key, const AttributeValue& value) const
 {
-
 	if(this->attributeMap->find(key) == this->attributeMap->end())
 	return false;
 
@@ -93,8 +92,6 @@ bool Attributes::equal_ignore_case(std::string s1, std::string s2) const
 std::ostream& operator<<(std::ostream& ostr, const Attributes& attr) {
 
 	AttributeMap* map = attr.attributeMap;
-
-
 	AttributeMap::iterator it;
 	Key k;
 	AttributeValue value;

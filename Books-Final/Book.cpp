@@ -1,9 +1,6 @@
 #include "Book.h"
 
-Book::Book(Attributes* const attr):
-    attributes(attr)
-{
-}
+Book::Book(Attributes* const attr): attributes(attr){}
 
 Book::~Book()
 {
@@ -15,3 +12,4 @@ Attributes* Book::get_Attributes() const
 {
     return this->attributes;
 }
+

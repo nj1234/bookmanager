@@ -1,12 +1,7 @@
 #pragma once
 #include<cassert>
-#include<map>
-#include<variant>
 
-#include"Enums.h"
-
-typedef std::variant<int, std::string,  Kind, Genre, Region, Subject> AttributeValue;
-typedef std::map<Key, AttributeValue> AttributeMap;
+#include"AttributeDefinitions.h"
 
 class Attributes
 {
